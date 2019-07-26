@@ -7,23 +7,61 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		44779F49DED044FC2B8BDA2B /* Pods_Redmine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30594E3FEBC8B3CF0D28BDD3 /* Pods_Redmine.framework */; };
 		704AF19822CE0AAF0067F24B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704AF19722CE0AAF0067F24B /* AppDelegate.swift */; };
-		704AF19A22CE0AAF0067F24B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704AF19922CE0AAF0067F24B /* ViewController.swift */; };
+		704AF19A22CE0AAF0067F24B /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704AF19922CE0AAF0067F24B /* AuthViewController.swift */; };
 		704AF19D22CE0AAF0067F24B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 704AF19B22CE0AAF0067F24B /* Main.storyboard */; };
 		704AF1A022CE0AAF0067F24B /* Redmine.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 704AF19E22CE0AAF0067F24B /* Redmine.xcdatamodeld */; };
 		704AF1A222CE0AB00067F24B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 704AF1A122CE0AB00067F24B /* Assets.xcassets */; };
 		704AF1A522CE0AB00067F24B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 704AF1A322CE0AB00067F24B /* LaunchScreen.storyboard */; };
+		7067585222DC8A8F0099523D /* IssueDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7067585122DC8A8F0099523D /* IssueDetailsViewController.swift */; };
+		7067585422DC8AB90099523D /* IssueDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7067585322DC8AB90099523D /* IssueDetailCell.swift */; };
+		7067585622DC903A0099523D /* IssueDetailsMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7067585522DC903A0099523D /* IssueDetailsMessageCell.swift */; };
+		7069B7C322CE11690001CE8D /* BaseRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7069B7C222CE11690001CE8D /* BaseRequests.swift */; };
+		7069B7C522CE118C0001CE8D /* AuthorizationRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7069B7C422CE118C0001CE8D /* AuthorizationRequests.swift */; };
+		7069B7CA22CE1CD30001CE8D /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7069B7C922CE1CD30001CE8D /* User.swift */; };
+		7069B7CC22CE1DF40001CE8D /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7069B7CB22CE1DF40001CE8D /* Errors.swift */; };
+		7069B7D322CE201B0001CE8D /* IssueListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7069B7CE22CE201A0001CE8D /* IssueListPresenter.swift */; };
+		7069B7D422CE201B0001CE8D /* IssueTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7069B7CF22CE201A0001CE8D /* IssueTableViewCell.swift */; };
+		7069B7D522CE201B0001CE8D /* IssueRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7069B7D022CE201A0001CE8D /* IssueRepository.swift */; };
+		7069B7D622CE201B0001CE8D /* IssuesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7069B7D122CE201A0001CE8D /* IssuesViewController.swift */; };
+		7069B7D722CE201B0001CE8D /* IssueData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7069B7D222CE201B0001CE8D /* IssueData.swift */; };
+		7069B7DA22CE22390001CE8D /* AuthViewController+Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7069B7D922CE22390001CE8D /* AuthViewController+Router.swift */; };
+		70D8F87D22E0862A00E4C87E /* IssueDetailsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70D8F87C22E0862A00E4C87E /* IssueDetailsPresenter.swift */; };
+		70F909EB22D21877003ACABD /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F909EA22D21877003ACABD /* Helpers.swift */; };
+		70F909ED22D2349B003ACABD /* IssuesRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F909EC22D2349B003ACABD /* IssuesRequests.swift */; };
+		70F909EF22D24D14003ACABD /* IssuesViewController+Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F909EE22D24D14003ACABD /* IssuesViewController+Router.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		19DB31795C50AF151644CE5D /* Pods-Redmine.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Redmine.release.xcconfig"; path = "Pods/Target Support Files/Pods-Redmine/Pods-Redmine.release.xcconfig"; sourceTree = "<group>"; };
+		30594E3FEBC8B3CF0D28BDD3 /* Pods_Redmine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Redmine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		56EB0096AD7061356FBEB2AE /* Pods-Redmine.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Redmine.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Redmine/Pods-Redmine.debug.xcconfig"; sourceTree = "<group>"; };
 		704AF19422CE0AAF0067F24B /* Redmine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Redmine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		704AF19722CE0AAF0067F24B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		704AF19922CE0AAF0067F24B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		704AF19922CE0AAF0067F24B /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
 		704AF19C22CE0AAF0067F24B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		704AF19F22CE0AAF0067F24B /* Redmine.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Redmine.xcdatamodel; sourceTree = "<group>"; };
 		704AF1A122CE0AB00067F24B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		704AF1A422CE0AB00067F24B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		704AF1A622CE0AB00067F24B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7067585122DC8A8F0099523D /* IssueDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IssueDetailsViewController.swift; sourceTree = "<group>"; };
+		7067585322DC8AB90099523D /* IssueDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IssueDetailCell.swift; sourceTree = "<group>"; };
+		7067585522DC903A0099523D /* IssueDetailsMessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IssueDetailsMessageCell.swift; sourceTree = "<group>"; };
+		7069B7C222CE11690001CE8D /* BaseRequests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseRequests.swift; sourceTree = "<group>"; };
+		7069B7C422CE118C0001CE8D /* AuthorizationRequests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationRequests.swift; sourceTree = "<group>"; };
+		7069B7C922CE1CD30001CE8D /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		7069B7CB22CE1DF40001CE8D /* Errors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
+		7069B7CE22CE201A0001CE8D /* IssueListPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IssueListPresenter.swift; sourceTree = "<group>"; };
+		7069B7CF22CE201A0001CE8D /* IssueTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IssueTableViewCell.swift; sourceTree = "<group>"; };
+		7069B7D022CE201A0001CE8D /* IssueRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IssueRepository.swift; sourceTree = "<group>"; };
+		7069B7D122CE201A0001CE8D /* IssuesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IssuesViewController.swift; sourceTree = "<group>"; };
+		7069B7D222CE201B0001CE8D /* IssueData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IssueData.swift; sourceTree = "<group>"; };
+		7069B7D922CE22390001CE8D /* AuthViewController+Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AuthViewController+Router.swift"; sourceTree = "<group>"; };
+		70D8F87C22E0862A00E4C87E /* IssueDetailsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IssueDetailsPresenter.swift; sourceTree = "<group>"; };
+		70F909EA22D21877003ACABD /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		70F909EC22D2349B003ACABD /* IssuesRequests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IssuesRequests.swift; sourceTree = "<group>"; };
+		70F909EE22D24D14003ACABD /* IssuesViewController+Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "IssuesViewController+Router.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +69,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44779F49DED044FC2B8BDA2B /* Pods_Redmine.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0BF26C8B529DFF91BECD738D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				30594E3FEBC8B3CF0D28BDD3 /* Pods_Redmine.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		704AF18B22CE0AAF0067F24B = {
 			isa = PBXGroup;
 			children = (
 				704AF19622CE0AAF0067F24B /* Redmine */,
 				704AF19522CE0AAF0067F24B /* Products */,
+				E9B897E029FED681C7CC537C /* Pods */,
+				0BF26C8B529DFF91BECD738D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +105,89 @@
 		704AF19622CE0AAF0067F24B /* Redmine */ = {
 			isa = PBXGroup;
 			children = (
+				7067585022DC864B0099523D /* IssueDetails */,
+				7069B7D822CE21C80001CE8D /* Authorization */,
+				7069B7CD22CE1FFE0001CE8D /* Issues List */,
+				7069B7C822CE1CBF0001CE8D /* Models */,
+				704CADC022D7563E0069410F /* Repositories */,
+				7069B7C122CE0E3D0001CE8D /* Remote Data Sources */,
 				704AF19722CE0AAF0067F24B /* AppDelegate.swift */,
-				704AF19922CE0AAF0067F24B /* ViewController.swift */,
 				704AF19B22CE0AAF0067F24B /* Main.storyboard */,
 				704AF1A122CE0AB00067F24B /* Assets.xcassets */,
 				704AF1A322CE0AB00067F24B /* LaunchScreen.storyboard */,
 				704AF1A622CE0AB00067F24B /* Info.plist */,
 				704AF19E22CE0AAF0067F24B /* Redmine.xcdatamodeld */,
+				70F909EA22D21877003ACABD /* Helpers.swift */,
 			);
 			path = Redmine;
+			sourceTree = "<group>";
+		};
+		704CADC022D7563E0069410F /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				7069B7D022CE201A0001CE8D /* IssueRepository.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		7067585022DC864B0099523D /* IssueDetails */ = {
+			isa = PBXGroup;
+			children = (
+				7067585122DC8A8F0099523D /* IssueDetailsViewController.swift */,
+				7067585322DC8AB90099523D /* IssueDetailCell.swift */,
+				7067585522DC903A0099523D /* IssueDetailsMessageCell.swift */,
+				70D8F87C22E0862A00E4C87E /* IssueDetailsPresenter.swift */,
+			);
+			path = IssueDetails;
+			sourceTree = "<group>";
+		};
+		7069B7C122CE0E3D0001CE8D /* Remote Data Sources */ = {
+			isa = PBXGroup;
+			children = (
+				7069B7C222CE11690001CE8D /* BaseRequests.swift */,
+				7069B7C422CE118C0001CE8D /* AuthorizationRequests.swift */,
+				7069B7CB22CE1DF40001CE8D /* Errors.swift */,
+				70F909EC22D2349B003ACABD /* IssuesRequests.swift */,
+			);
+			path = "Remote Data Sources";
+			sourceTree = "<group>";
+		};
+		7069B7C822CE1CBF0001CE8D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7069B7D222CE201B0001CE8D /* IssueData.swift */,
+				7069B7C922CE1CD30001CE8D /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7069B7CD22CE1FFE0001CE8D /* Issues List */ = {
+			isa = PBXGroup;
+			children = (
+				7069B7CE22CE201A0001CE8D /* IssueListPresenter.swift */,
+				7069B7CF22CE201A0001CE8D /* IssueTableViewCell.swift */,
+				7069B7D122CE201A0001CE8D /* IssuesViewController.swift */,
+				70F909EE22D24D14003ACABD /* IssuesViewController+Router.swift */,
+			);
+			path = "Issues List";
+			sourceTree = "<group>";
+		};
+		7069B7D822CE21C80001CE8D /* Authorization */ = {
+			isa = PBXGroup;
+			children = (
+				704AF19922CE0AAF0067F24B /* AuthViewController.swift */,
+				7069B7D922CE22390001CE8D /* AuthViewController+Router.swift */,
+			);
+			path = Authorization;
+			sourceTree = "<group>";
+		};
+		E9B897E029FED681C7CC537C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				56EB0096AD7061356FBEB2AE /* Pods-Redmine.debug.xcconfig */,
+				19DB31795C50AF151644CE5D /* Pods-Redmine.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +197,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 704AF1A922CE0AB00067F24B /* Build configuration list for PBXNativeTarget "Redmine" */;
 			buildPhases = (
+				E88FA92BF7AF649194D58BED /* [CP] Check Pods Manifest.lock */,
 				704AF19022CE0AAF0067F24B /* Sources */,
 				704AF19122CE0AAF0067F24B /* Frameworks */,
 				704AF19222CE0AAF0067F24B /* Resources */,
+				B3180388888E65C52EBF88B8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +258,80 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B3180388888E65C52EBF88B8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Redmine/Pods-Redmine-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxRelay/RxRelay.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxRelay.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Redmine/Pods-Redmine-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E88FA92BF7AF649194D58BED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Redmine-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		704AF19022CE0AAF0067F24B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7069B7D422CE201B0001CE8D /* IssueTableViewCell.swift in Sources */,
+				70F909ED22D2349B003ACABD /* IssuesRequests.swift in Sources */,
+				70F909EB22D21877003ACABD /* Helpers.swift in Sources */,
+				7069B7D322CE201B0001CE8D /* IssueListPresenter.swift in Sources */,
+				7067585422DC8AB90099523D /* IssueDetailCell.swift in Sources */,
+				70D8F87D22E0862A00E4C87E /* IssueDetailsPresenter.swift in Sources */,
+				7069B7C522CE118C0001CE8D /* AuthorizationRequests.swift in Sources */,
+				7069B7C322CE11690001CE8D /* BaseRequests.swift in Sources */,
+				7069B7CA22CE1CD30001CE8D /* User.swift in Sources */,
 				704AF1A022CE0AAF0067F24B /* Redmine.xcdatamodeld in Sources */,
-				704AF19A22CE0AAF0067F24B /* ViewController.swift in Sources */,
+				7067585222DC8A8F0099523D /* IssueDetailsViewController.swift in Sources */,
+				704AF19A22CE0AAF0067F24B /* AuthViewController.swift in Sources */,
+				70F909EF22D24D14003ACABD /* IssuesViewController+Router.swift in Sources */,
 				704AF19822CE0AAF0067F24B /* AppDelegate.swift in Sources */,
+				7069B7CC22CE1DF40001CE8D /* Errors.swift in Sources */,
+				7067585622DC903A0099523D /* IssueDetailsMessageCell.swift in Sources */,
+				7069B7D722CE201B0001CE8D /* IssueData.swift in Sources */,
+				7069B7D622CE201B0001CE8D /* IssuesViewController.swift in Sources */,
+				7069B7D522CE201B0001CE8D /* IssueRepository.swift in Sources */,
+				7069B7DA22CE22390001CE8D /* AuthViewController+Router.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +475,7 @@
 		};
 		704AF1AA22CE0AB00067F24B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56EB0096AD7061356FBEB2AE /* Pods-Redmine.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -302,6 +494,7 @@
 		};
 		704AF1AB22CE0AB00067F24B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19DB31795C50AF151644CE5D /* Pods-Redmine.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
